@@ -40,6 +40,8 @@ public class WordCountMapperTest {
                 .withOutput(new Text("hello world"), new IntWritable(6))
                 .runTest();
 
+
+
     }
 
 
